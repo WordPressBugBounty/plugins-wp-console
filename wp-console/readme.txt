@@ -2,9 +2,9 @@
 Contributors: ediamin
 Tags: console, repl, browser, psysh, shell, dump
 Requires at least: 5.3.12
-Tested up to: 6.4.1
-Requires PHP: 5.6
-Stable tag: 2.4.1
+Tested up to: 6.7
+Requires PHP: 7.4
+Stable tag: 2.5.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -55,6 +55,12 @@ WP Console explicitly verifies the presence of the `manage_options` permission t
 12. Custom snippets in action
 
 == Changelog ==
+
+2.5.0 - November 17, 2024
+* Breaking: Dropped support for PHP 5.6. The minimum PHP requirement is now 7.4.
+* Refactored the dependency loading process for improved performance and maintainability.
+* Fixed namespace compatibility issues for PHP 8.1+.
+* Resolved deprecation warnings in recent WordPress versions.
 
 2.4.1 - November 13, 2023
 * Fix deprecation notice in PHP 8.2 related to strtolower argument type.
